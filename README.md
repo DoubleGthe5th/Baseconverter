@@ -5,7 +5,7 @@ How to convert to negative bases?
 
 Converting a number to base 10 given the base is really easy. All you do is take each digit starting from the right, then multiply said digit by the base to the power of how many spaces from the right it is, then add
 
-For example, with the number 234 to base 5, you would do (4*5^0) + (3*5^1) + (2*5^2) --> 4*1 + 3*5 + 2*25 --> 4 + 15 + 50 --> 69
+For example, with the number 234 to base 5, you would do (4x5^0) + (3x5^1) + (2x5^2) --> 4x1 + 3x5 + 2x25 --> 4 + 15 + 50 --> 69
 
 This method works with any base, positive,negative, or imaginary, which is likely going to be my next project
 
@@ -26,4 +26,4 @@ For example: 70 to base -3
 
 Since we've reached zero, all of our digits combined must equal 70, so 70 in base -3 equals 11211
 
-If we use the method from before, we get (1*81 - 1*27 + 2*9 - 1*3 + 1), which equals 70
+If we use the method from before, we get (1x81 - 1x27 + 2x9 - 1x3 + 1), which equals 70
